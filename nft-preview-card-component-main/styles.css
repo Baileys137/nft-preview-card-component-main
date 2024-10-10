@@ -1,0 +1,93 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color:hsl(217, 54%, 11%);
+    min-height: 100vh;
+    font-size: 18px;
+}
+
+.container{
+    background-color: hsl(216, 50%, 16%);
+    justify-content: center;
+    display: block;
+    align-items: center;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 400px;
+    height: 600px;
+    border-radius: 10px;
+
+}
+
+h1{
+    color: hsl(0, 0%, 100%);
+    margin-top: 10px;
+    margin-bottom: 10px;
+    margin: 10px;
+}
+
+hr{
+    color: hsl(215, 32%, 27%);
+    width: 80%;
+    margin-left: 40px;
+}
+
+
+p{
+    color: hsl(215, 51%, 70%);
+    margin-top: 10px;
+    margin-bottom: 10px;
+    margin-left: 10px;
+
+}   
+
+span{
+    color: hsl(178, 100%, 50%);
+    margin: 10px;
+    margin-left: -3px;
+}
+
+.time-left{
+    color: hsl(215, 51%, 70%);
+    
+}
+
+
+
+svg{
+    display: inline-block;
+    vertical-align: middle;
+}
+img{
+    width: 380px;
+    height: 300px;
+    margin: 10px;
+    border-radius: 10px;
+}
+
+.jules-pic{
+    display: inline;
+    width: 30px;
+    height: 30px;
+    margin-top: 10px;
+}
+
+img, p {
+    display: inline-block;
+    vertical-align: middle;
+  }
+
+
+
+.attribution { 
+    font-size: 11px; text-align: center;
+             }
+
+.attribution a { 
+    color: hsl(228, 45%, 44%); 
+               }
